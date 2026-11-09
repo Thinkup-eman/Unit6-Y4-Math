@@ -253,3 +253,7 @@ body{padding-bottom:96px!important}
 .sgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:0;max-width:300px;border:2.5px solid var(--ink);margin:8px 0}
 .sgrid .sc{aspect-ratio:1;border:1px solid #9AA9B6;background:#fff;border-radius:0;box-shadow:none;padding:0;cursor:pointer}.sgrid .sc.on{background:#E0A21B;border:1.5px solid var(--ink)}
 .fr{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.15;margin:0 .2em;font-weight:900}.fr i{font-style:normal;padding:0 .25em}.fr i:first-child{border-bottom:2.5px solid currentColor}
+
+/* fix: shade bars must fill the card width */
+.shade{width:100%;box-sizing:border-box;align-self:stretch}
+.sgrid{width:100%;box-sizing:border-box}
